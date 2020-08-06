@@ -1,52 +1,33 @@
+import projectData from '../helpers/data/projectData';
 import utils from '../helpers/utils';
+import './loop.scss';
 
-const projects = [
-
-  {
-    title: 'Product Cards',
-    screenshot: 'images/productcard1.jpg',
-    description: 'The first exercise at NSS. The goal of the exercise was to create a grid of product cards with CSS, HTML, and flexbox. Here I have created a grid of "The Best Product".',
-    technologiesUsed: 'HTML, CSS, Version Control with Github',
-    available: false,
-    url: 'https://github.com/nathanieltylerowens/product-cards',
-    githubUrl: 'https://github.com/nathanieltylerowens/product-cards',
-  },
-  {
-    title: 'Pet Adoption Site',
-    screenshot: 'images/petadopt1.jpg',
-    description: 'The second exercise at NSS. The goal of the exercise was to create a pet adoption site using print to dom JS.',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nathanieltylerowens/pet-adoption',
-    githubUrl: 'https://github.com/nathanieltylerowens/pet-adoption',
-  },
-  {
-    title: 'Sorting Hat',
-    screenshot: 'images/sortinghat3.jpg',
-    description: 'The fourth exercise at NSS. The goal of the exercise was to create a site that sorted viewers using Bootstrap with the print to dom JS.',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nathanieltylerowens/sorting-hat',
-    githubUrl: 'https://github.com/nathanieltylerowens/sorting-hat',
-  },
-];
-
-const buildProjectCards = () => {
-  let domString = '';
-
-  for (let i = 0; i < projects.length; i + 1) {
-    if (projects[i].available === true) {
-      domString += `<div class='projectCards'>
-        <img src="${projects[i].screenshot}" width="500" height="300">
-        <h3 class="projects">Cool Project: ${projects[i].title}</h3>
-        <p class="projectScripts">${projects[i].technologiesUsed}</p>
-        <p class="description">${projects[i].description}</p>
-        <h5 class="url"><a href=${projects[i].url}>Visit here</a></h5>
-        <h5 class="gitUrl"><a href=${projects[i].githubUrl}>Git here</h5>;
-        </div>`;
-    }
-  }
-  utils.printToDom('#projectCards', domString);
+const loopProjects = () => {
+  projectData.getProjects()
+    .then((projects) => {
+      let domString = `
+        <h1 class="projectsH1">Projects</h1>
+        <div class="fullPage" id="projectsPage">
+      `;
+      projects.forEach((project) => {
+        domString += `
+        <div class="projectDiv">
+        <img class="screenshotImg" src="${project.screenshot}" alt="${project.title} Screenshot">
+        <h4 class="projectH3">${project.title}</h4>
+        <p class="descriptionP">${project.description}</p>
+        <p class="deployP">`;
+        if (project.isDeployed) {
+          domString += `<a href="${project.portfolioUrl}"s target="_blank">>>Launch Project</a>`;
+        }
+        domString += `<a href="${project.githubUrl}">>>GitHub Repo</a></p>
+        <p class="techP">${project.technologiesUsed}</p>
+        </div>
+        `;
+      });
+      domString += '</div>';
+      utils.printToDom('#projectCards', domString);
+    })
+    .catch((err) => console.error('loop broke', err));
 };
 
-export default { buildProjectCards };
+export default { loopProjects };

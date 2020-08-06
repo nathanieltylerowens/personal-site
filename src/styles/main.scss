@@ -1,7 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rozha+One&display=swap');
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Rozha One', serif;
+
+$space-cadet: #24305e;
+$dark-cornflower-blue: #374785;
+$uranian-blue: #a8d0e6;
+$light-coral: #f76c6c;
+$green-yellow-crayola: #f8e9a1 ;
+
+
 body{
-    background-color: #f9ffea;
+    background-color: #a8d0e6;
     padding: 0 auto;
     margin: 0 auto;
 }
@@ -34,8 +46,7 @@ li{
     background-color: #574f7d;
     font-weight: bolder; 
 }
-/* font-family: 'Roboto Slab', serif;
-font-family: 'Spartan', sans-serif; */
+
 .greeting {
     background-color: #4f3a65;
     color: #dff0ea;

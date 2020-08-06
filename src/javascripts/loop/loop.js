@@ -7,19 +7,19 @@ const loopProjects = () => {
     .then((projects) => {
       let domString = `
         <h1 class="projectsH1">Projects</h1>
-        <div class="fullPage" id="projectsPage">
+        <div id="projectsPage">
       `;
       projects.forEach((project) => {
         domString += `
-        <div class="projectDiv">
+        <div class="col-sm projectDiv">
         <img class="screenshotImg" src="${project.screenshot}" alt="${project.title} Screenshot">
-        <h4 class="projectH3">${project.title}</h4>
+        <h3 class="projectH3">${project.title}</h3>
         <p class="descriptionP">${project.description}</p>
         <p class="deployP">`;
         if (project.isDeployed) {
           domString += `<a href="${project.portfolioUrl}"s target="_blank">>>Launch Project</a>`;
         }
-        domString += `<a href="${project.githubUrl}">>>GitHub Repo</a></p>
+        domString += `<a href="${project.githubUrl}"><i class="fab fa-github"></i></a></p>
         <p class="techP">${project.technologiesUsed}</p>
         </div>
         `;

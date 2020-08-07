@@ -14,68 +14,51 @@ $green-yellow-crayola: #f8e9a1 ;
 
 body{
     background-color: #a8d0e6;
-    padding: 0 auto;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+}
+.dropdown button{
+    background-color: $dark-cornflower-blue;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown-menu{
+    background-color: $dark-cornflower-blue;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown button:hover{
+    background-color: $dark-cornflower-blue;
+    font-family: 'Montserrat', sans-serif;
+    color: #a8d0e6;
+}
+.btn-secondary.dropdown-toggle:focus {
+    background-color: $dark-cornflower-blue;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.dropdown-menu a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.dropdown-menu a:hover{
+    color: #a8d0e6;
+    font-weight: bold;
+    background-color: #374785;
 }
 
-// li{
-//     list-style-type: none;
-// }
+#navLinks {
+    display: flex;
+    color: white;
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: fixed;
+    right: 1.5%;
+    top: 5%;
+    font-family:'Montserrat', sans-serif;
+    z-index: 10000;
+}
 
-// #navLinks {
-//     list-style-type: none;
-//     overflow: hidden;
-//     background-color: #4f3a65;
-//     display: flex;
-//     color: #dff0ea;
-//     text-align: center;
-//     padding: 0;
-//     margin: 0;
-//     float: right;
-//     flex-direction: column;
-//     position: fixed;
-//     right: 1.5%;
-//     top: 5%;
-//     font-family:'Spartan', sans-serif;
-//     border-radius: 25px;
-//   }
-// #navlinks li {
-//     padding: 15px 15px 15px 15px;
-// }
-// #navlinks li:hover {
-//     background-color: #574f7d;
-//     font-weight: bolder; 
-// }
 
-// .greeting {
-//     background-color: #4f3a65;
-//     color: #dff0ea;
-//     font-family: Roboto Slab, serif;
-//     font-weight: 700;
-//     font-style: italic;
-//     height: 500px;
-//     text-align: center;
-//     margin: 0;
-// }
-
-// #biopage{
-//     display: flex;
-//     height: 500px;
-//     color: #95adbe;
-//     font-family: 'Spartan', sans-serif;
-//     font-size: 30pt;
-//     flex-direction: column;
-//     margin-top: 40px;
-//     justify-content: space-evenly;
-// }
-// .left{
-//     text-align: right;
-//     margin: 0 50% 40px 0;
-// }
-// .right{
-//     text-align: left;
-//     margin: 0 0px 40px 50%;
-// }
 
 
 // #technologiesPage {

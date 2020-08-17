@@ -8,13 +8,13 @@ $green-yellow-crayola: #f8e9a1 ;
 
 .page-footer {
   text-align: center;
-  background-color: #24305e;
   height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
   margin: 0;
+  color: #24305e;
 }
 .page-footer h4, h5{
   padding: 0em;

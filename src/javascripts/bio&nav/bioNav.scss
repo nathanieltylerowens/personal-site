@@ -9,29 +9,18 @@ $green-yellow-crayola: #f8e9a1 ;
 
 
 .greeting {
-    background-color: #f76c6c;
     color: white;
     font-family: 'Rozha One', serif;
-    font-weight: 700;
-    font-style: italic;
-    height: 500px;
+    height: 900px;
     text-align: center;
     margin: 0;
 }
-ul {
-  padding: 0;
+.hi{
+  font-size: 200pt;
 }
-
-#bioPage{
-    display: flex;
-    height: 32pt;
-    color: white;
-    background-color: #f8e9a1;
-    font-family: 'Rozha One', serif;
-    font-size: 20pt;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 0 auto;
-    margin: 0 auto;
+.about{
+  text-align: left;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 30px;
 }

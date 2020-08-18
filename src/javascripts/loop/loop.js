@@ -6,6 +6,7 @@ const loopProjects = () => {
   projectData.getProjects()
     .then((projects) => {
       let domString = `
+      <div class="projects">
         <h1 class="projectsH1">Projects</h1>
         <div id="projectsPage">
       `;
@@ -24,7 +25,9 @@ const loopProjects = () => {
         </div>
         `;
       });
-      domString += '</div>';
+      domString += `
+        </div>
+      </div>`;
       utils.printToDom('#projectCards', domString);
     })
     .catch((err) => console.error('loop broke', err));

@@ -33,21 +33,28 @@ body{
 .dropdown button:hover{
     background-color: $dark-cornflower-blue;
     font-family: 'Montserrat', sans-serif;
-    color: $green-yellow-crayola;
+    color: $light-coral;
 }
 .btn-secondary.dropdown-toggle:focus {
     background-color: $dark-cornflower-blue;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: $uranian-blue;
+    border: none;
 }
 .dropdown-menu a{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .dropdown-menu a:hover{
-    color: $green-yellow-crayola;
+    color: $light-coral;
     font-weight: bold;
     background-color: #374785;
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 #navLinks {
@@ -62,60 +69,3 @@ body{
     font-family:'Montserrat', sans-serif;
     z-index: 10000;
 }
-
-
-
-
-// #technologiesPage {
-//     background-color: #95adbe;
-//     display: flex;
-//     padding: 0;
-//     margin: 0;
-//     height: 300px;
-//     color: #dff0ea;
-//     font-family: 'Spartan', sans-serif;
-//     font-size: 52pt;
-//     flex-direction: column;
-//     text-align: center;
-// }
-// #technologiesPage ul{
-//     padding: 0;
-//     margin: 0;
-//     height: 300px;
-// }
-// #technologiesPage li {
-//     margin: 15px 15px 15px 15px;
-// }
-// .tech-back{
-//     font-family: 'Spartan', sans-serif;
-//     font-weight: lighter;
-//     font-size: 15pt;
-    
-// }
-// .page-footer{
-//     height: 155px;
-//     font-family: 'Roboto Slab', serif;
-//     background-color: #dff0ea;
-//     color: #95adbe;
-//     text-align: center;
-// }
-// .page-footer h4 {
-//     margin: 0;
-//     padding: 10px o 0px 0px;
-//     font-size: 12pt;
-// }
-// .page-footer a {
-//     padding: 10px 0px 10px 0px;
-//     margin: 0;
-//     color: #95adbe;
-//     font-size: 15pt;
-// }
-// .page-footer a:hover{
-//     font-weight: bolder;
-//     color: #A6D0E4;
-// }
-// .page-footer h5 {
-//     margin: 0;
-//     padding: 20px o 10px 0px;
-//     font-size: 10pt;
-// }

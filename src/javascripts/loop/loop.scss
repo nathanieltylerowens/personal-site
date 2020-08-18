@@ -5,13 +5,15 @@ $light-coral: #f76c6c;
 $green-yellow-crayola: #f8e9a1 ;
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Rozha One', serif;
+.projects {
+  background-color: $uranian-blue;
+}
 
 #projectsPage {
   display: flex;
   flex-direction: row;
   height: 650px;
   color: white;
-  background-color: $uranian-blue;
 }
 .projectDiv {
   display: flex;

@@ -12,8 +12,12 @@ $green-yellow-crayola: #f8e9a1 ;
     color: white;
     height: 900px;
 }
+.row{
+  margin: 0px;
+  padding: 0px;
+}
 .hi{
-  font-size: 200pt;
+  font-size: 15vw;
   margin: 0;
   padding: 0;
   font-family: 'Rozha One', serif;
@@ -26,7 +30,6 @@ $green-yellow-crayola: #f8e9a1 ;
   border-color: transparent;
   color: white;
 }
-
 #contact {
   display: flex;
   flex-direction: row;
@@ -40,8 +43,8 @@ $green-yellow-crayola: #f8e9a1 ;
   font-size: 20pt;
 }
 #contact a {
-  color: white;
+  color: $uranian-blue;
 }
 #contact a:hover {
-  color: $uranian-blue;
+  color: $dark-cornflower-blue;
 }

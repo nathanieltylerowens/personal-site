@@ -13,7 +13,7 @@ $green-yellow-crayola: #f8e9a1 ;
 
 
 body{
-   background-color: #f76c6c;
+   background-color: $light-coral;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f8e9a1' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2324305e' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23cfecae' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23283466' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23adeac4' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%232b396d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%239ae4d9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%232f3e75' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%239adbe5' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2333427d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23a8d0e6' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23374785' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
@@ -35,7 +35,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: $light-coral;
 }
-.btn-secondary.dropdown-toggle:focus {
+.btn-secondary.dropdown:focus {
     background-color: $dark-cornflower-blue;
     font-family: 'Montserrat', sans-serif;
     color: $uranian-blue;
@@ -48,7 +48,7 @@ body{
 .dropdown-menu a:hover{
     color: $light-coral;
     font-weight: bold;
-    background-color: #374785;
+    background-color: $dark-cornflower-blue;
 }
 #intro {
     display: flex;
@@ -64,7 +64,7 @@ body{
     margin: 0;
     float: right;
     position: fixed;
-    right: 1.5%;
+    right: 2.5%;
     top: 5%;
     font-family:'Montserrat', sans-serif;
     z-index: 10000;

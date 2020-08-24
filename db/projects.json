@@ -1,35 +1,42 @@
 {
   "project1": {
-    "title": "Product Cards",
-    "screenshot": "https://i.imgur.com/wnde7o1.jpg",
-    "description": "The first exercise at NSS. The goal of the exercise was to create a grid of product cards with CSS, HTML, and flexbox. Here I have created a grid of 'The Best Product'.",
-    "technologiesUsed": "HTML, CSS, Version Control with Github",
+    "title": "Penterest",
+    "screenshot": "",
+    "description": "The sixth exercise at NSS. The objective of the exercise was to create a site similar to Pinterest. This project was our introduction to Firebase, Axios, and CRUD.",
+    "technologiesUsed": "Javascript, Firebase, Axios, JQuery, Version Control with Github",
     "available": true,
-    "githubUrl": "https://github.com/nathanieltylerowens/product-cards",
-    "isDeployed": false,
-    "portfolioUrl": "www.google.com",
-    "slide": "First slide"
+    "githubUrl": "https://github.com/nathanieltylerowens/pinterest",
+    "isDeployed": true,
+    "portfolioUrl": "https://pinterest-a8c45.web.app/"
   },
   "project2": {
-    "title": "Pet Adoption Site",
-    "screenshot": "https://i.imgur.com/nPNbBRx.jpg",
-    "description": "The second exercise at NSS. The goal of the exercise was to create a pet adoption site using print to dom JS.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "title": "Tamagotchi",
+    "screenshot": "",
+    "description": "Tamagotchi was our first time using webpack and SCSS. The objective was to create an app inspired by the popular 90s game.",
+    "technologiesUsed": "Webpack, SCSS, Javascript, Version Control with Github",
     "available": true,
-    "githubUrl": "https://github.com/nathanieltylerowens/pet-adoption",
-    "isDeployed": false,
-    "portfolioUrl": "www.google.com",
-    "slide": "Second slide"
+    "githubUrl": "https://github.com/nathanieltylerowens/tamagotchi",
+    "isDeployed": true,
+    "portfolioUrl": "https://tomagotchi-778e0.web.app "
   }, 
   "project3": {
-    "title": "Sorting Hat",
-    "screenshot": "https://i.imgur.com/sDJyEKv.jpg",
-    "description": "The fourth exercise at NSS. The goal of the exercise was to create a site that sorted viewers using Bootstrap with the print to dom JS.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "title": "Bozo University",
+    "screenshot": "",
+    "description": "Group project to create admin panel for a clown college. Thanks Michael, Nick, and Matt. I was responsible for the Lessons page.",
+    "technologiesUsed": "Javascript, Firebase, Axios, JQuery, Version Control with Github",
     "available": true,
-    "githubUrl": "https://github.com/nathanieltylerowens/sorting-hat",
-    "isDeployed": false,
-    "portfolioUrl": "www.google.com",
-    "slide": "Third slide"
+    "githubUrl": "https://github.com/nathanieltylerowens/nutshell-chital",
+    "isDeployed": true,
+    "portfolioUrl": "https://nutshell-chital.web.app/"
+  },
+  "project4": {
+    "title": "Sweatys",
+    "screenshot": "",
+    "description": "Group project to create admin panel for a clown college. Thanks Michael, Nick, and Matt. I was responsible for the Lessons page.",
+    "technologiesUsed": "Javascript, Firebase, Axios, JQuery, Version Control with Github",
+    "available": true,
+    "githubUrl": "https://github.com/nathanieltylerowens/pants-sweat-pants",
+    "isDeployed": true,
+    "portfolioUrl": "https://sweatys-d6e13.web.app"
   }
 }

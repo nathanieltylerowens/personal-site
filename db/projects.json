@@ -32,8 +32,8 @@
   "project4": {
     "title": "Sweatys",
     "screenshot": "",
-    "description": "Group project to create admin panel for a clown college. Thanks Michael, Nick, and Matt. I was responsible for the Lessons page.",
-    "technologiesUsed": "Javascript, Firebase, Axios, JQuery, Version Control with Github",
+    "description": "Group project to create an online store for sweatpants. Thanks Matt, Billy, and Pete. I was responsible for the reviews page.",
+    "technologiesUsed": "HTML, CSS, Javascript, Version Control with Github",
     "available": true,
     "githubUrl": "https://github.com/nathanieltylerowens/pants-sweat-pants",
     "isDeployed": true,

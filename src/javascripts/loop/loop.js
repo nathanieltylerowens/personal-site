@@ -32,7 +32,7 @@ const loopProjects = () => {
       `;
       projects.forEach((project) => {
         domString += `
-        <div class="col-sm projectDiv">
+        <div class="col-lg-3 projectDiv">
           <a class="projectsH3" href="${project.portfolioUrl}">${project.title}</a>
             <p class="descriptionP">${project.description}</p>
               <a href="${project.githubUrl}"><i id="projectsGit" class="fab fa-github"></i></a>

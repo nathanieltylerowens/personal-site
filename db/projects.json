@@ -1,5 +1,15 @@
 {
   "project1": {
+    "title": "Dog Days",
+    "screenshot": "",
+    "description": "Dog Days is the final project for the front-end class of NSS. It was created as a one stop app for a dog owner to be able to track a dog’s exercise, feeding, bathroom, and grooming.",
+    "technologiesUsed": "Javascript, SCSS, Firebase, Axios, React, Reactstrap, MomentJS, Version Control with Github",
+    "available": true,
+    "githubUrl": "github.com/nathanieltylerowens/dogdays",
+    "isDeployed": true,
+    "portfolioUrl": "dog-days-763e0.web.app/"
+  },
+  "project2": {
     "title": "Penterest",
     "screenshot": "",
     "description": "The sixth exercise at NSS. The objective of the exercise was to create a site similar to Pinterest. This project was our introduction to Firebase, Axios, and CRUD.",
@@ -8,16 +18,6 @@
     "githubUrl": "https://github.com/nathanieltylerowens/pinterest",
     "isDeployed": true,
     "portfolioUrl": "https://pinterest-a8c45.web.app/"
-  },
-  "project2": {
-    "title": "Tamagotchi",
-    "screenshot": "",
-    "description": "Tamagotchi was our first time using webpack and SCSS. The objective was to create an app inspired by the popular 90s game.",
-    "technologiesUsed": "Webpack, SCSS, Javascript, Version Control with Github",
-    "available": true,
-    "githubUrl": "https://github.com/nathanieltylerowens/tamagotchi",
-    "isDeployed": true,
-    "portfolioUrl": "https://tomagotchi-778e0.web.app "
   }, 
   "project3": {
     "title": "Bozo University",

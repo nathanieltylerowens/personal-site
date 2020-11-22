@@ -19,7 +19,7 @@ const buildBio = () => {
       <div id="contact">  
         <p id="mail"><a href="mailto:nathanieltylerowens@gmail.com?Subject=Hello%20there!" target="_top"><i class="fas fa-paper-plane"></i></a></p>
         <p id="github"><a href="https://github.com/nathanieltylerowens"><i class="fab fa-github"></i></a></p>
-        <p id="github"><a href="https://www.linkedin.com/in/nathaniel-owens-987179b5/"><i class="fab fa-linkedin"></i></a></p>
+        <p id="github"><a href="https://www.linkedin.com/in/nathanieltylerowens"><i class="fab fa-linkedin"></i></a></p>
       </div>
   </div>
   `;
